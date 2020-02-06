@@ -12,7 +12,7 @@ public class HighScore : MonoBehaviour
 		{
 			score = PlayerPrefs.GetInt("HighScore");
 		}
-		PlayerPrefs.SetInt("HighScore", score)
+		PlayerPrefs.SetInt("HighScore", score);
 	}
 	void Update()
 	{
